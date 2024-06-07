@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <div class="container">
+        <a class="navbar-brand col-4" href="index.html"><img src="assets/icon/logo.svg" alt="Logotype"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse col-sm-8 text-end navbar-collapse justify-content-end" id="navbarNavDropdown">
+          <ul class="navbar-nav menu text-uppercase">
+            <li class="nav-item">
+              <a class="menu__link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="menu__link" href="#service">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="menu__link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="menu__link" href="#experience">Experiences</a>
+            </li>
+            <li class="nav-item">
+              <a class="menu__link color" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="menu__link" href="#social">Social</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="header__main d-flex justify-content-between">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="header__descr col-12 col-sm-12 col-lg-8 ">
+            <h6 class="yellowText">Hello, Welcome</h6>
+            <h1 class="text-light fw-bold mt-4">I'm Anderson Coper</h1>
+            <p class="header__descr-text">There are many variations of passages of Lorem Ipsum available, but the
+              majority have suffered alteration in some form, by injected humour,</p>
+            <button class="btn btn-warning mt-2 fw-bold">Contact me</button>
+          </div>
+          <div class="col-12 col-sm-12 col-lg-4 text-center">
+            <img class="img-fluid" src="assets/image/header__image.png" alt="person__image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- about section -->
+    <section class="about" id="about">
+      <div class="container ">
+        <div class="row about__wrapper align-items-center">
+          <div class="col-lg-5 mb-4 mb-lg-0">
+            <div class="about__image border border-warning rounded-16">
+              <img class="about__image-photo img-fluid rounded-16" src="assets/image/about__image.png"
+                alt="person__image">
+            </div>
+          </div>
+          <div class="col-lg-6 offset-lg-1">
+            <div class="about__descr">
+              <h2 class="about__descr-title text-light mb-4 fw-bold">About <span class="yellowText">Me</span></h2>
+              <p class="about__descr-text text-secondary">There are many variations of passages of Lorem Ipsum
+                available, but the majority have suffered alteration in some form, by injected humour. Lorem ipsum dolor
+                sit amet, consectetur adipisicing elit. Cumque, aspernatur?</p>
+              <p class="about__descr-text text-secondary mb-4">Passages of Lorem Ipsum available, but the majority have
+                suffered alteration in some form, by injected humour.</p>
+              <button class="btn btn-warning mt-2 fw-bold">Contact me</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- service section -->
+    <section class="service" id="service">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="header__descr col-12">
+            <h2 class="about__descr-title text-light mb-4 fw-bold">My <span class="yellowText">Service</span></h2>
+            <p class="header__descr-text">There are many variations of passages of Lorem Ipsum available, but the
+              majority have suffered alteration in some form, by injected humour,</p>
+          </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col">
+            <div class="service__card card" tabindex="0">
+              <img class="card-img-top" src="./assets/icon/service_icon1.svg" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="service__card-title text-light">Digital Marketing</h4>
+                <p class="card-text text-secondary">Some quick example text to build on the card title and make up the
+                  bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="service__card card" tabindex="0">
+              <img class="card-img-top" src="./assets/icon/service_icon2.svg" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="service__card-title  text-light">Digital Marketing</h4>
+                <p class="card-text text-secondary">Some quick example text to build on the card title and make up the
+                  bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="service__card card" tabindex="0">
+              <img class=" card-img-top" src="./assets/icon/service_icon3.svg" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="service__card-title  text-light">Digital Marketing</h4>
+                <p class="card-text text-secondary">Some quick example text to build on the card title and make up the
+                  bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio section -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="header__descr col-12 text-center">
+            <h2 class="about__descr-title text-light mb-4 fw-bold">My <span class="yellowText">Portfolio</span></h2>
+            <p class="header__descr-text m-auto">There are many variations of passages of Lorem Ipsum available, but the
+              majority have suffered alteration in some form, by injected humour,</p>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-6 pb-3">
+            <img class="img-fluid " src="./assets/image/portfolio1.png" tabindex="0" alt="Design image">
+          </div>
+          <div class="col-lg-6 ">
+            <div class="row g-3">
+              <div class="col-6">
+                <img src="./assets/image/portfolio2.png" tabindex="0" alt="Design image" class="w-100">
+              </div>
+              <div class="col-6">
+                <img src="./assets/image/portfolio3.png" tabindex="0" alt="Design image" class="w-100">
+              </div>
+              <div class="col-6">
+                <img src="./assets/image/portfolio4.png" tabindex="0" alt="Design image" class="w-100">
+              </div>
+              <div class="col-6">
+                <img src="./assets/image/portfolio5.png" tabindex="0" alt="Design image" class="w-100">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- experience secition -->
+    <section class="service experience" id="experience">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="header__descr col-12">
+            <h2 class="about__descr-title text-light mb-4 fw-bold">My <span class="yellowText">Experiences</span></h2>
+            <p class="header__descr-text contact__descr">There are many variations of passages ofLorem Ipsum
+              available, but the majority havesuffered alteration in some form, by injected humour</p>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col">
+            <div class="service__card experience__card" tabindex="0">
+              <p class="text-light">June-2002 - 2020</p>
+              <h3 class="yellowText fw-bold">UX/UI Designer</h3>
+              <p class="text-light fw-bold">Figma</p>
+              <div class="card-body experience__body">
+                <p class="card-text text-secondary">TThere are many variations of passages of Lorem Ipsumav ailable, but
+                  the majority have suffered
+                  alteration in some </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="service__card experience__card" tabindex="0">
+              <p class="text-light">June-2002 - 2020</p>
+              <h3 class="yellowText fw-bold">UX/UI Designer</h3>
+              <p class="text-light fw-bold">Figma</p>
+              <div class="card-body experience__body">
+                <p class="card-text text-secondary">TThere are many variations of passages of Lorem Ipsumav ailable, but
+                  the majority have suffered
+                  alteration in some </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="service__card experience__card" tabindex="0">
+              <p class="text-light">June-2002 - 2020</p>
+              <h3 class="yellowText fw-bold">UX/UI Designer</h3>
+              <p class="text-light fw-bold">Figma</p>
+              <div class="card-body experience__body">
+                <p class="card-text text-secondary">TThere are many variations of passages of Lorem Ipsumav ailable, but
+                  the majority have suffered
+                  alteration in some </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact secition -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="row contact__top">
+          <div class="header__descr col-12 text-center ">
+            <h2 class="about__descr-title text-light mb-4 fw-bold">Contact <span class="yellowText">Me</span></h2>
+            <p class="header__descr-text contact__descr m-auto">There are many variations of passages ofLorem
+              Ipsumavailable, but the majority havesuffered alteration in some form, by injected humour,</p>
+          </div>
+        </div>
+        <div class="row contact__wrapper">
+          <div class="col-md-6 contact__address">
+
+            <p class="yellowText">Phone _ <span class="text-light"> +01 123 456 789</span></p>
+            <p class="yellowText">Email _ <span class="text-light"> abc.xyz@gmail.com</span></p>
+            <p class="yellowText">Website _ <span class="text-light"> www.abc.xyz.com</span></p>
+            <p class="yellowText">Address _ <span class="text-light"> 23 S 80 Road, Benedict,ne, 68316 United
+                States</span></p>
+          </div>
+          <form class="col-md-6 form" action="#">
+            <input class="contact__form-name text-light" type="text" placeholder="Name">
+            <textarea class="contact__form-textarea text-light" name="#" id="#" placeholder="Message"></textarea>
+            <button class="btn form__btn btn-warning fw-bold">Contact me</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- footer -->
+  <footer class="footer" id="social">
+    <div class="container">
+      <div class="row">
+        <div class="header__descr col-12 text-center mb-5">
+          <h2 class="about__descr-title text-light mb-4 fw-bold">AboutMe.</h2>
+          <p class="header__descr-text contact__descr m-auto">There are many variations of passages ofLorem
+            Ipsumavailable, but the majority havesuffered alteration in some form, </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="footer__social col-md-12 text-center">
+          <a class="footer__social-link" href="#"><img src="./assets/icon/facebook.svg" alt="Facebook"></a>
+          <a class="footer__social-link" href="#"><img src="./assets/icon/twitter.svg" alt="Twitter"></a>
+          <a class="footer__social-link" href="#"><img src="./assets/icon/linkedin.svg" alt="LinkedIn"></a>
+          <a class="footer__social-link" href="#"><img src="./assets/icon/instagram.svg" alt="Instagram"></a>
+          <a class="footer__social-link" href="#"><img src="./assets/icon/youtube.svg" alt="YouTube"></a>
+          <a class="footer__social-link" href="#"><img src="./assets/icon/pinterest.svg" alt="Pinterest"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
